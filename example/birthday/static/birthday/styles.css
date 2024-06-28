@@ -1,0 +1,35 @@
+
+h1{
+    font-family: sans-serif;
+    font-size: 95px;
+    text-align: center;
+    animation-name: example2;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 95px;
+    text-align: center;
+    animation-name: example2;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+
+}
+
+body{
+    background-color: beige;
+    animation-name: example;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes example{
+    from {background-color: beige;}
+    to{background-color:darkmagenta ;}
+} 
+@keyframes example2{
+    from{color: darkmagenta;}
+    to{color:beige;}
+
+    
+}
